@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #030712;
+    color: #F3F4F6;
+    font-family: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+    transition: background 0.5s, color 0.5s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+    font-weight: 700;
+}
+
+code, pre, .font-mono {
+    font-family: 'Fira Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1.2s ease-in forwards;
+}
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
+
+.hover-glow:hover {
+    box-shadow: 0 0 16px 2px #58AF89, 0 0 32px 4px #7C3AED33;
+    transition: box-shadow 0.3s;
+}
