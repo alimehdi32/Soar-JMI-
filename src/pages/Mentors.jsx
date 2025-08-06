@@ -6,7 +6,7 @@ import mayank from "../assets/mayank.jpeg";
 const people = [
   {
     name: 'Mayank Arora',
-    role: 'Founder, SoarX',
+    role: 'Founder, Soar',
     imageUrl: mayank,
     linkedin: 'https://www.linkedin.com/in/arora1mayank/'
   },
@@ -18,7 +18,7 @@ const people = [
   },
   {
     name: 'Ali Nasir',
-    role: 'Founder & President, SoarX JMI',
+    role: 'Founder & President, Soar JMI',
     imageUrl: founder,
     linkedin: 'https://www.linkedin.com/in/ali-nasir-ba3640230/'
   },

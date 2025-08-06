@@ -18,7 +18,7 @@ export default function MainSection() {
                 <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                     <div className="flex lg:flex-1">
                         <a href="#" className="-m-1.5 p-1.5">
-                            <span className="sr-only">SoarX JMI</span>
+                            <span className="sr-only">Soar JMI</span>
                             <img
                                 className="h-12 w-auto"
                                 src={icon}
@@ -53,7 +53,7 @@ export default function MainSection() {
                     <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-950 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                         <div className="flex items-center justify-between">
                             <a href="/" className="-m-1.5 p-1.5">
-                                <span className="sr-only">SoarX JMI</span>
+                                <span className="sr-only">Soar JMI</span>
                                 <img
                                     className="h-12 w-auto"
                                     src={icon}
@@ -106,10 +106,10 @@ export default function MainSection() {
                     </div>
                     <div className="text-center">
                         <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl font-sans">
-                            What is SoarX JMI ?
+                            What is Soar JMI ?
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-gray-400 font-sans">
-                            SoarX JMI is a thriving Student branch of SoarX Nationwide community
+                            Soar JMI is a thriving Student branch of Soar Nationwide community
                             comprising over 4500 students, renowned for curating exceptional
                             upskilling events tailored for students.
                         </p>

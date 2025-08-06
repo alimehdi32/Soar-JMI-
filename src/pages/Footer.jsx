@@ -53,7 +53,7 @@ export default function Footer() {
                 </div>
                 <hr className="my-8 border-blue-gray-50" />
                 <Typography className="text-center font-normal text-jmi-green font-sans">
-                    &copy; 2025 SoarX JMI
+                    &copy; 2025 Soar JMI
                 </Typography>
             </footer>
         </>
@@ -91,7 +91,7 @@ function Slogan() {
                 <div className="mx-auto w-full lg:mx-0 text-center">
                     <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl font-mono">Rise Together,Soar Higher</h2>
                     <p className="mt-6 text-lg leading-8 text-gray-300 font-sans">
-                    Empowering innovation, where ideas spark and technology ignites, defining the essence of SoarX JMI's mission.
+                    Empowering innovation, where ideas spark and technology ignites, defining the essence of Soar JMI's mission.
                     </p>
                 </div>
             </div>

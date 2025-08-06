@@ -22,7 +22,7 @@ export default function About() {
                     <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                         <div className="flex lg:flex-1">
                             <a href="#" className="-m-1.5 p-1.5">
-                                <span className="sr-only">SoarX JMI</span>
+                                <span className="sr-only">Soar JMI</span>
                                 <img
                                     className="h-12 w-auto"
                                     src={icon}
@@ -57,7 +57,7 @@ export default function About() {
                         <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-950 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                             <div className="flex items-center justify-between">
                                 <a href="/" className="-m-1.5 p-1.5">
-                                    <span className="sr-only">SoarX JMI</span>
+                                    <span className="sr-only">Soar JMI</span>
                                     <img
                                         className="h-12 w-auto"
                                         src={icon}
@@ -110,13 +110,13 @@ export default function About() {
                         </div>
                         <div className="text-justify">
                             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl font-sans">
-                                About SoarX JMI
+                                About Soar JMI
                             </h1>
                             <p className="mt-16 text-lg leading-8 text-gray-400 font-sans">
-                                At SoarX JMI , we are passionate about bridging the gap
+                                At Soar JMI , we are passionate about bridging the gap
                                 between industry and academia by offering unparalleled
                                 exposure and experience to students.
-                                We are thrilled and excited about the SoarX chapter at JMI,
+                                We are thrilled and excited about the Soar chapter at JMI,
                                 committed to replicating our success within the JMI community.
                                 We extend our heartfelt gratitude to all community members
                                 for your unwavering support and enthusiasm. Stay tuned for
@@ -126,7 +126,7 @@ export default function About() {
                                 Our track record boasts numerous successful events featuring
                                 distinguished speakers from industry giants such as Amazon,
                                 Microsoft,Meta, and Google etc. Through strategic
-                                collaborations with leading companies. SoarX ensures
+                                collaborations with leading companies. Soar ensures
                                 students gain hands-on exposure to cutting-edge
                                 technologies. Like, our collaboration with Snapchat for
                                 Lensathon empowered students to learn lens creation, with
@@ -196,7 +196,7 @@ function Benefits() {
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:text-center">
                     <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl font-sans">
-                        Benefits of SoarX JMI
+                        Benefits of Soar JMI
                     </p>
                 </div>
                 <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
