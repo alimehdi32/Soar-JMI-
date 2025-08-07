@@ -1,15 +1,9 @@
 import navaid from '../assets/navaid-sir.png';
 import haroon from '../assets/haroon-sir.jpeg';
 import founder from "../assets/founder.jpg";
-import mayank from "../assets/mayank.jpeg";
+
 
 const people = [
-  {
-    name: 'Mayank Arora',
-    role: 'Founder, Soar',
-    imageUrl: mayank,
-    linkedin: 'https://www.linkedin.com/in/arora1mayank/'
-  },
   {
     name: 'Dr. Navaid Z. Rizvi',
     role: 'Faculty Mentor',
@@ -34,10 +28,10 @@ export default function Mentors() {
   return (
     <>
       {/* Container for demo purpose */}
-      <div className="container my-8 mx-auto px-4 sm:px-6 md:px-6">
+      <div className="container my-8 mx-auto px-4 sm:mt-14 sm:px-6 md:px-6">
         <section className="mb-16 text-center text-white fade-in">
           <h2 className="mb-10 text-2xl sm:text-3xl font-bold font-sans">For a better change...</h2>
-          <div className="grid gap-y-8 gap-x-4 sm:gap-x-6 md:grid-cols-2 lg:grid-cols-4 lg:gap-x-12">
+          <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-y-8 gap-x-12">
             {people.map((item)=>(
               <div key={item.name} className="mb-8 sm:mb-12 md:mb-0 hover-glow transition-all duration-300 px-4 sm:px-0">
                 <div className="mb-4 sm:mb-6 flex justify-center">

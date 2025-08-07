@@ -41,7 +41,7 @@ const features = [
 
 export default function Features() {
     return (
-        <div className="bg-gray-900 py-24 sm:py-32 fade-in" style={{height:"600px"}}>
+        <div className="bg-gray-900 py-16 sm:py-24 lg:py-32 pb-20 sm:pb-24 lg:pb-32 fade-in">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:text-center">
                     <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl font-sans">

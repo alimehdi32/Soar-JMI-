@@ -18,7 +18,7 @@ function App() {
       <PastEvents />
       <Orientation />
       <Partners />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Footer />
     </>
   )
