@@ -6,6 +6,7 @@ import Testimonials from './Testimonials'
 import PastEvents from './PastEvents'
 import Footer from './Footer'
 import Partners from './Partners'
+import Orientation from './Orientation'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Features />
       <Mentors />
       <PastEvents />
+      <Orientation />
       <Partners />
       <Testimonials />
       <Footer />

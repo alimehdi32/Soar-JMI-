@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import icon from "../assets/icon.png"; 
+import { motion } from 'framer-motion'
+import icon from "../assets/icon.png"
 
 const navigation = [
     { name: 'Home', href: '/' },
@@ -89,7 +90,10 @@ export default function MainSection() {
             </header>
 
             <div className="relative isolate px-6 pt-14 lg:px-8 fade-in">
-                <div
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 0.3 }}
+                    transition={{ duration: 1.5 }}
                     className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
                     aria-hidden="true"
                 >
@@ -100,30 +104,50 @@ export default function MainSection() {
                                 'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
                         }}
                     />
-                </div>
+                     </motion.div>
+                
+               
                 <div className="mx-auto max-w-4xl py-32 sm:py-100 lg:py-56">
                     <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                     </div>
                     <div className="text-center">
-                        <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl font-sans">
+                        <motion.h1
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8 }}
+                            className="text-4xl font-bold tracking-tight text-white sm:text-6xl font-sans"
+                        >
                             What is Soar JMI ?
-                        </h1>
-                        <p className="mt-6 text-lg leading-8 text-gray-400 font-sans">
-                            Soar JMI is a thriving Student branch of Soar Nationwide community
-                            comprising over 4500 students, renowned for curating exceptional
-                            upskilling events tailored for students.
-                        </p>
-                        <div className="mt-10 flex items-center justify-center gap-x-6">
-                            <a
+                        </motion.h1>
+                        <motion.p
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8, delay: 0.2 }}
+                            className="mt-6 text-lg leading-8 text-gray-400 font-sans"
+                        >
+                            SoarX JMI is a highly esteemed and rapidly growing tech society at Jamia Millia Islamia, aiming to empower students through impactful events, sessions, and hackathons. Our society is dedicated to fostering innovation, critical thinking, and collaboration among students. We strive to create a platform for students to express their ideas, challenge their perspectives, and develop their skills through structured events and activities.
+                        </motion.p>
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8, delay: 0.4 }}
+                            className="mt-10 flex items-center justify-center gap-x-6"
+                        >
+                            <motion.a
+                                whileHover={{ scale: 1.05 }}
+                                whileTap={{ scale: 0.95 }}
                                 href="/about"
                                 className="rounded-md bg-jmi-green px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 hover-glow transition-all duration-300"
                             >
                                 About Us
-                            </a>
-                        </div>
+                            </motion.a>
+                        </motion.div>
                     </div>
                 </div>
-                <div
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 0.3 }}
+                    transition={{ duration: 1.5 }}
                     className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
                     aria-hidden="true"
                 >
@@ -134,7 +158,8 @@ export default function MainSection() {
                                 'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
                         }}
                     />
-                </div>
+                    
+                </motion.div>
             </div>
         </div>
     )

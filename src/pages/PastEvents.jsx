@@ -1,4 +1,7 @@
 import { Typography, Card, CardBody } from "@material-tailwind/react";
+import AI_using_chatgpt from "../assets/AI_using_ChatGPT.jpg";
+import API101 from "../assets/API101.png";
+import Microsoft_AI from "../assets/Microsoft_AI.png";
 
 function ContentCard({ img, title, desc }) {
     return (
@@ -43,6 +46,21 @@ const contents = [
         img: "https://www.commercialdesignindia.com/cloud/2021/11/26/6LXdgdaz-Microsoft-Building-2.jpg",
         title: "Microsoft Office Visit",
         desc: "SoarX arranged a memorable office visit to Microsoft, offering students an exclusive peek into the company's culture and operations.",
+    },
+    {
+        img: AI_using_chatgpt,
+        title: "AI using ChatGPT",
+        desc: " In collaboration with Coding Blocks, SoarX JMI presented its first AI workshop focused on ChatGPT. This workshop aimed to provide participants with a foundational understanding of artificial intelligence, covering essential concepts and real-world applications.",
+    },
+    {
+        img: API101,
+        title: "API 101",
+        desc: "This introductory session on APIs, led by Mr. Krishanu Bujarbaruah, emphasized the significance of APIs in modern software development. Covering foundational concepts such as API functionality and the importance of hands-on learning, the workshop provided students with practical insights into this essential technology. ",
+    },
+    {
+        img: Microsoft_AI,
+        title: "Microsoft AI",
+        desc: "The Microsoft Visit on May 18 showcased Microsoft’s latest AI advancements, featuring industry leaders and developers. Speakers discussed new AI tools, ethical AI development, and real-world applications, highlighting how AI is boosting productivity and innovation across various fields.",
     },
 ];
 
