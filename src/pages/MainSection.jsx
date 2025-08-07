@@ -14,12 +14,12 @@ export default function MainSection() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-        <div className="bg-gray-900" style={{height:"550px"}}>
+        <div className="bg-gray-900 min-h-screen sm:min-h-[550px]">
             <header className="absolute inset-x-0 top-0 z-50">
                 <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                     <div className="flex lg:flex-1">
                         <a href="#" className="-m-1.5 p-1.5">
-                            <span className="sr-only">Soar JMI</span>
+                            <span className="sr-only">SoarJMI</span>
                             <img
                                 className="h-12 w-auto"
                                 src={icon}
@@ -54,7 +54,7 @@ export default function MainSection() {
                     <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-950 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                         <div className="flex items-center justify-between">
                             <a href="/" className="-m-1.5 p-1.5">
-                                <span className="sr-only">Soar JMI</span>
+                                <span className="sr-only">SoarJMI</span>
                                 <img
                                     className="h-12 w-auto"
                                     src={icon}
@@ -107,7 +107,7 @@ export default function MainSection() {
                      </motion.div>
                 
                
-                <div className="mx-auto max-w-4xl py-32 sm:py-100 lg:py-56">
+                <div className="mx-auto max-w-4xl py-16 sm:py-32 lg:py-56">
                     <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                     </div>
                     <div className="text-center">
@@ -117,7 +117,7 @@ export default function MainSection() {
                             transition={{ duration: 0.8 }}
                             className="text-4xl font-bold tracking-tight text-white sm:text-6xl font-sans"
                         >
-                            What is Soar JMI ?
+                            What is SoarJMI ?
                         </motion.h1>
                         <motion.p
                             initial={{ opacity: 0, y: 20 }}

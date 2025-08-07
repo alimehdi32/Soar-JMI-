@@ -22,7 +22,7 @@ export default function About() {
                     <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                         <div className="flex lg:flex-1">
                             <a href="#" className="-m-1.5 p-1.5">
-                                <span className="sr-only">Soar JMI</span>
+                                <span className="sr-only">SoarJMI</span>
                                 <img
                                     className="h-12 w-auto"
                                     src={icon}
@@ -110,10 +110,10 @@ export default function About() {
                         </div>
                         <div className="text-justify">
                             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl font-sans">
-                                About Soar JMI
+                                About SoarJMI
                             </h1>
                             <p className="mt-16 text-lg leading-8 text-gray-400 font-sans">
-                                At Soar JMI , we are passionate about bridging the gap
+                                At SoarJMI , we are passionate about bridging the gap
                                 between industry and academia by offering unparalleled
                                 exposure and experience to students.
                                 We are thrilled and excited about the Soar chapter at JMI,
@@ -196,7 +196,7 @@ function Benefits() {
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:text-center">
                     <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl font-sans">
-                        Benefits of Soar JMI
+                        Benefits of SoarJMI
                     </p>
                 </div>
                 <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">

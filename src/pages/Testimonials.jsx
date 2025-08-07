@@ -48,9 +48,9 @@ const testimonials = [
     //     img: founder,
     // },
     {
-        title:"As the Networking Lead at SOARX JMI, I spearheaded infrastructure development, fostered innovation, and achieved organizational success through effective team leadership.",
+        title:"As the Networking Lead at SOARJMI, I spearheaded infrastructure development, fostered innovation, and achieved organizational success through effective team leadership.",
         client: "Zainab Eifa",
-        clientInfo: "Networking lead @SoarX JMI",
+        clientInfo: "Networking lead @SoarJMI",
         img: zainab,
     },
     // {
@@ -60,21 +60,21 @@ const testimonials = [
     //     img: ayaan,
     // },
     {
-        title:"Joining SoarX JMI has been exhilarating, offering vibrant community, hands-on learning, unparalleled networking, and invaluable industry connections in media.",
+        title:"Joining SoarJMI has been exhilarating, offering vibrant community, hands-on learning, unparalleled networking, and invaluable industry connections in media.",
         client: "Nomah Fatima",
-        clientInfo: "Graphics Lead, @SoarX JMI",
+        clientInfo: "Graphics Lead, @SoarJMI",
         img: nomah,
     },
     {
-        title:"Through active engagement in tech events and online communities, like SoarX JMI, I expand knowledge, foster connections, and gain mentorship.",
+        title:"Through active engagement in tech events and online communities, like SoarJMI, I expand knowledge, foster connections, and gain mentorship.",
         client: "Afzal Amaan Ullah",
-        clientInfo: "Content Lead, @SoarX JMI",
+        clientInfo: "Content Lead, @SoarJMI",
         img: afzal,
     },
     {
-        title:"Absolutely thrilled to have found a warm and welcoming community in SoarXJMI! Inspired by the dedication to learning, innovation, and collaboration. Excited for the journey ahead!",
+        title:"Absolutely thrilled to have found a warm and welcoming community in SoarJMI! Inspired by the dedication to learning, innovation, and collaboration. Excited for the journey ahead!",
         client: "Ismail Hossen",
-        clientInfo: "Strategy Lead, @SoarX JMI",
+        clientInfo: "Strategy Lead, @SoarJMI",
         img: ismail,
     }
 ];

@@ -18,7 +18,7 @@ const people = [
   },
   {
     name: 'Ali Nasir',
-    role: 'Founder & President, Soar JMI',
+    role: 'Founder & President, SoarJMI',
     imageUrl: founder,
     linkedin: 'https://www.linkedin.com/in/ali-nasir-ba3640230/'
   },

@@ -35,22 +35,22 @@ const contents = [
     {
         img: "https://images.unsplash.com/photo-1638029202288-451a89e0d55f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         title: "Hackathons",
-        desc: "SoarX JMI organizes hackathons, fostering innovation and collaboration among students, offering a platform for creative problem-solving in tech.",
+        desc: "SoarJMI organizes hackathons, fostering innovation and collaboration among students, offering a platform for creative problem-solving in tech.",
     },
     {
         img: "https://images.unsplash.com/photo-1595675024853-0f3ec9098ac7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         title: "Quizes",
-        desc: "SoarX JMI hosts coding quizzes, promoting skill development and competitiveness among participants, encouraging excellence in programming proficiency.",
+        desc: "SoarJMI hosts coding quizzes, promoting skill development and competitiveness among participants, encouraging excellence in programming proficiency.",
     },
     {
         img: "https://www.commercialdesignindia.com/cloud/2021/11/26/6LXdgdaz-Microsoft-Building-2.jpg",
         title: "Microsoft Office Visit",
-        desc: "SoarX arranged a memorable office visit to Microsoft, offering students an exclusive peek into the company's culture and operations.",
+        desc: "SoarJMI arranged a memorable office visit to Microsoft, offering students an exclusive peek into the company's culture and operations.",
     },
     {
         img: AI_using_chatgpt,
         title: "AI using ChatGPT",
-        desc: " In collaboration with Coding Blocks, SoarX JMI presented its first AI workshop focused on ChatGPT. This workshop aimed to provide participants with a foundational understanding of artificial intelligence, covering essential concepts and real-world applications.",
+        desc: " In collaboration with Coding Blocks, SoarJMI presented its first AI workshop focused on ChatGPT. This workshop aimed to provide participants with a foundational understanding of artificial intelligence, covering essential concepts and real-world applications.",
     },
     {
         img: API101,
@@ -79,7 +79,7 @@ export default function PastEvents() {
                 variant="lead"
                 className="mt-10 max-w !font-normal !text-white text-center font-sans"
             >
-                SoarX JMI consistently organizes impactful events featuring speakers from major companies like Amazon, Microsoft, Meta, and Google. These collaborations offer students practical experience with the latest tech. For instance, our Lensathon with Snapchat taught lens creation, rewarding participants with items like t-shirts and headphones. Similarly, our recent AI Odyssey with Microsoft provided exclusive merchandise such as t-shirts and trendy fanny packs to participants.
+                SoarJMI consistently organizes impactful events featuring speakers from major companies like Amazon, Microsoft, Meta, and Google. These collaborations offer students practical experience with the latest tech. For instance, our Lensathon with Snapchat taught lens creation, rewarding participants with items like t-shirts and headphones. Similarly, our recent AI Odyssey with Microsoft provided exclusive merchandise such as t-shirts and trendy fanny packs to participants.
             </Typography>
 
             <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-3">
